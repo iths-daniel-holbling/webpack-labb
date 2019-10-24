@@ -1,6 +1,7 @@
 import '../styles/index.scss';
-import aos from 'aos';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import anime from 'animejs';
-
-console.log(aos);
+AOS.init();
 console.log('webpack starterkit');
+ 
